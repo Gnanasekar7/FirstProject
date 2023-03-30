@@ -11,7 +11,7 @@ import './App.css';
 // import ClassClick from './componenets/ClassClick';
 // import ParentCompenent from './componenets/ParentCompenent';
 // import ConditionalRender from './componenets/ConditionalRender';
-import PersonList from './componenets/PersonList';
+// import PersonList from './componenets/PersonList';
 // import Stylesheets from './componenets/Stylesheets';
 // import Inline from './componenets/Inline';
 // import './appStyles.css'
@@ -22,6 +22,7 @@ import PersonList from './componenets/PersonList';
 // import Table from './componenets/Table';
 // import Parent from './componenets/Parent';
 // import LiftingUpParent from './componenets/LiftingUpParent';
+import Refdemo from './componenets/Refdemo';
 class App extends Component{
   render (){
   return(
@@ -41,7 +42,7 @@ class App extends Component{
       {/* <EventBind/> */}
       {/* <ParentCompenent/> */}
       {/* <ConditionalRender/> */}
-      <PersonList/>
+      {/* <PersonList/> */}
       {/* <Stylesheets primary = {true} /> */}
       {/* <Inline/> */}
       {/* <h1 className='error'>Error</h1> */}
@@ -52,6 +53,7 @@ class App extends Component{
       {/* <Table/> */}
       {/* <Parent/> */}
       {/* <LiftingUpParent/> */}
+      <Refdemo/>
     </div>
   );
   }
